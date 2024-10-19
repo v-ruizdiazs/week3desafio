@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(23, 41, 56); /* Color inicial en función del valor predeterminado de los sliders */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor-principal {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-interno {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.color label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.color input[type="range"] {
+    width: 100%;
+}
+
+.color p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
